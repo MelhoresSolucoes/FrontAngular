@@ -1,0 +1,65 @@
+<h1>Cadastro de Telefones</h1>
+<p>Lista de telefones</p>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastroModal">Novo Telefone</button>
+
+<div class="modal fade" id="#cadastroModal" tabindex="-1" aria-labelledby="telefoneLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="telefoneLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Telefone:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Tipo:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Gravar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br />
+<br />
+
+<form action="/" method="post">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Telefone</th>
+        <th scope="col">Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>64 99999-9999</td>
+        <td>Fixo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>64 98545-4545</td>
+        <td>Celular</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>66 98547-4455</td>
+        <td>Celular</td>
+      </tr>
+    </tbody>
+  </table>
+</form>>
+
